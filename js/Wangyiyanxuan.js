@@ -229,8 +229,8 @@ window.onload=function(){
 		} else{
 			clearTimeout(countTimer);
 			timeCount.children[0].innerHTML=00;
-			timeCount.children[1].innerHTML=00;
 			timeCount.children[2].innerHTML=00;
+			timeCount.children[4].innerHTML=00;
 		}
 	}
 	countDown(maxtime);
