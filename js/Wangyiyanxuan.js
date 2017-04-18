@@ -228,9 +228,9 @@ window.onload=function(){
 			},1000);
 		} else{
 			clearTimeout(countTimer);
-			timeCount.children[0].innerHTML=00;
-			timeCount.children[2].innerHTML=00;
-			timeCount.children[4].innerHTML=00;
+			timeCount.children[0].innerHTML='00';
+			timeCount.children[2].innerHTML='00';
+			timeCount.children[4].innerHTML='00';
 		}
 	}
 	countDown(maxtime);
